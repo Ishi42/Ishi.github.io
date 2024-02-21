@@ -1,230 +1,189 @@
-.parallax {
-    background-image: url("Twst.png");
-    min-height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+* {
+    box-sizing: border-box; 
 }
-.seken {
-    position:relative;
-    color:#ddd;
-    background-color:#282E34;
-    text-align:center;
-    padding:50px 80px;
+.home {
+    background-color: black;
 }
-.caption {
-    position: absolute;
-    left: 0;
-    top: 350px;
-    width: 100%;
+.logo {
+    width: 4.05vw;
+    float: right;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(83, 80, 90);
+    opacity: 30px;
     text-align: center;
-    color: #000;
 }
-.border {
-    background-color:transparent; 
-    font-size:25px;
-    color: #f7f7f7;
+li {
+    float: left;
+    text-align: center;
 }
-.caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
+li a {
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
 }
-.word {
-    color: #777;
-    background-color:white;
-    text-align:center;
-    padding:50px 80px;
-    text-align: justify;
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'des des des des des des'
+    'title title title title title title'
+    'nav nav content content content2 content2'
+    'mor mor mor mor mor mor'
+    'con con con2 con2 con3 con3'
+    'fot fot fot fot fot fot'
+    'foot foot foot foot foot foot'
+    'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: rgb(83, 80, 90);
+    padding: 10px;
 }
-h3 {
-    text-align: center
-}
-
-.Bg2 {
-    background-image: url(HSD.webp);
-    min-height: 100%;
-
-}
-
-
-.border2 {
-    
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7;
-    
-}
-
-.caption2 {
-        padding-top: 300px;
-        position: relative;
-        left: 0;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        color: #000;
-    }
-
-.caption2 span.border2 {
-    background-color: rgb(68, 5, 14);
-    padding: 18px;
-    letter-spacing: 10px;
-}
-.border2 {
-    
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7;
-    
-}
-.Bg3 {
-    background-image: url(SV.webp);
-    min-height: 100%;
-}
-.border3 {
-    
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7;
-    
-}
-.caption3 {
-
-        padding-top: 300px;
-        position: relative;
-        left: 0;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        color: #000;
-    }
-
-.caption3 span.border3 {
-    background-color: rgb(51, 27, 4);
-    padding: 18px;
-    letter-spacing: 10px;
-}
-.seken2 {
-position:relative;
-    color:#ddd;
-    background-color:#282E34;
-    text-align:center;
-    padding:50px 80px;
-}
-.Bg4 {
-    background-image: url(OV.webp);
-    min-height: 100%;
-}
-.border4 {
-    
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7;
-    
-}
-.caption4 {
-
-        padding-top: 300px;
-        position: relative;
-        left: 0;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        color: #000;
-    }
-
-    .caption4 span.border4 {
-        background-color: rgb(33, 9, 65);
-        padding: 18px;
-        letter-spacing: 10px;
-    }
-.seken4 {
-position:relative;
-    color:#ddd;
-    background-color:#282E34;
-    text-align:center;
-    padding:50px 80px;
-}
-.Bg5 {
-    background-image: url(IH.webp);
-    min-height: 100%;
-}
-.border5 {
-    
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7;
-    
-}
-.caption5 {
-
-        padding-top: 300px;
-        position: relative;
-        left: 0;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        color: #000;
-    }
-
-    .caption5 span.border5 {
-        background-color: rgb(5, 14, 65);
-        padding: 18px;
-        letter-spacing: 10px;
-    }
-.seken5 {
-position:relative;
-    color:#ddd;
-    background-color:#282E34;
-    text-align:center;
-    padding:50px 80px;
-}
-.Bg6 {
-    background-image: url(DS.webp);
-    min-height: 100%;
-}
-.border6 {
-    
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7;
-    
-}
-.caption6 {
-
-        padding-top: 300px;
-        position: relative;
-        left: 0;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        color: #000;
-    }
-
-.caption6 span.border6 {
-    background-color: rgb(1, 20, 7);
-    padding: 18px;
-    letter-spacing: 10px;
-}
-.seken6 {
-position:relative;
-    color:#ddd;
-    background-color:#282E34;
-    text-align:center;
-    padding:50px 80px;
-}
-.bg, .Bg2, .Bg3, .Bg4, .Bg5, .Bg6 {
-    position: relative;
-    opacity: 1;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+.header {
+    background-image: url(./Background.png);
     background-size: cover;
+    background-color: aliceblue;
+    
+    text-align: center;
+    font-size: 35px;
+    color: rgb(57, 46, 71);
+    grid-area: header;
 }
-@media only screen and (max-device-width: 1024px)
-.bg, .Bg2, .Bg3, .Bg4, .Bg5, Bg6 {
-    background-attachment: scroll;}
+h {
+    padding: 10px;
+    font-size: 30px;
+}
+p {
+    font-size: 2vw;
+}
+.description {
+    grid-area: des;
+    text-align: center;
+    color: white;
+}
+.middle {
+    grid-area: title;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
+.nav {
+    color: white;
+    padding: 20px;
+    background-color: rgb(36, 50, 65);
+    grid-area: nav;
+    text-align: center;
+    width: 100%;
+}
+.nav ul {
+    list-style-type: none;
+}
+.content {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(44, 64, 83);
+    grid-area: content;
+    text-align: center;
+}
+.content2 {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(83, 92, 99);
+    grid-area: content2;
+    text-align: center;
+}
+.after {
+    grid-area: mor;
+    text-align: center;
+}
+.con {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    grid-area: con;
+    text-align: center;
+    width: 100%;
+}
+.con2 {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    grid-area: con2;
+    text-align: center;
+    width: 100%;
+}
+.con3 {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    grid-area: con3;
+    text-align: center;
+    width: 100%;
+}
+.foot {
+    background-color: rgb(204, 218, 205);
+    padding: 20px;
+    text-align: center;
+    color: azure;
+    grid-area: fot; 
+}
+.foot2 {
+    background-color: rgb(204, 204, 218);
+    padding: 20px;
+    text-align: center;
+    color: azure;
+    grid-area: foot; 
+}
+.footer {
+    background-color: rgb(204, 204, 218);
+    padding: 20px;
+    text-align: center;
+    color: azure;
+    grid-area: footer;
+}
+
+a:hover {
+    background-color: rgb(13, 13, 44);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+a {
+    font-size: 20px;
+}
+@media (max-width: 800px) {
+    .grid-container  {
+      grid-template-areas: 
+      'header header header header header header'
+      'des des des des des des'
+      'title title title title title title'
+      'nav nav nav nav nav nav'
+      'content content content content content content'
+      'content2 content2 content2 content2 content2 content2'
+      'mor mor mor mor mor mor'
+      'con con con con con con'
+      'con2 con2 con2 con2 con2 con2'
+      'con3 con3 con3 con3 con3 con3'
+      'fot fot fot fot fot fot'
+      'foot foot foot foot foot foot'
+      'footer footer footer footer footer footer';
+    }
+  }
