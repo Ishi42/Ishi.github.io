@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box; 
+}
+.home {
+    background-color: black;
+}
+.logo {
+    width: 4.05vw;
+    float: right;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(83, 80, 90);
+    opacity: 30px;
+    text-align: center;
+}
+li {
+    float: left;
+    text-align: center;
+}
+li a {
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'des des des des des des'
+    'title title title title title title'
+    'nav nav content content content2 content2'
+    'mor mor mor mor mor mor'
+    'con con con2 con2 con3 con3'
+    'fot fot fot fot fot fot'
+    'foot foot foot foot foot foot'
+    'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: rgb(83, 80, 90);
+    padding: 10px;
+}
+.header {
+    background-image: url(./Background.png);
+    background-size: cover;
+    background-color: aliceblue;
+    
+    text-align: center;
+    font-size: 35px;
+    color: rgb(57, 46, 71);
+    grid-area: header;
+}
+h {
+    padding: 10px;
+    font-size: 30px;
+}
+p {
+    font-size: 2vw;
+}
+.description {
+    grid-area: des;
+    text-align: center;
+    color: white;
+}
+.middle {
+    grid-area: title;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
+.nav {
+    color: white;
+    padding: 20px;
+    background-color: rgb(36, 50, 65);
+    grid-area: nav;
+    text-align: center;
+    width: 100%;
+}
+.nav ul {
+    list-style-type: none;
+}
+.content {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(44, 64, 83);
+    grid-area: content;
+    text-align: center;
+}
+.content2 {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(83, 92, 99);
+    grid-area: content2;
+    text-align: center;
+}
+.after {
+    grid-area: mor;
+    text-align: center;
+}
+.con {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    grid-area: con;
+    text-align: center;
+    width: 100%;
+}
+.con2 {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    grid-area: con2;
+    text-align: center;
+    width: 100%;
+}
+.con3 {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    grid-area: con3;
+    text-align: center;
+    width: 100%;
+}
+.foot {
+    background-color: rgb(204, 218, 205);
+    padding: 20px;
+    text-align: center;
+    color: azure;
+    grid-area: fot; 
+}
+.foot2 {
+    background-color: rgb(204, 204, 218);
+    padding: 20px;
+    text-align: center;
+    color: azure;
+    grid-area: foot; 
+}
+.footer {
+    background-color: rgb(204, 204, 218);
+    padding: 20px;
+    text-align: center;
+    color: azure;
+    grid-area: footer;
+}
+
+a:hover {
+    background-color: rgb(13, 13, 44);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+a {
+    font-size: 20px;
+}
+@media (max-width: 800px) {
+    .grid-container  {
+      grid-template-areas: 
+      'header header header header header header'
+      'des des des des des des'
+      'title title title title title title'
+      'nav nav nav nav nav nav'
+      'content content content content content content'
+      'content2 content2 content2 content2 content2 content2'
+      'mor mor mor mor mor mor'
+      'con con con con con con'
+      'con2 con2 con2 con2 con2 con2'
+      'con3 con3 con3 con3 con3 con3'
+      'fot fot fot fot fot fot'
+      'foot foot foot foot foot foot'
+      'footer footer footer footer footer footer';
+    }
+  }
